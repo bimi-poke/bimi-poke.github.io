@@ -246,3 +246,7 @@ hr.vertical {
 .is-horizontal-center {
   justify-content: center;
 }
+
+.bBrLj0 {
+  border-radius: 0px !important;
+}
