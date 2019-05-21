@@ -31,11 +31,42 @@
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css'>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body>
-
+  <nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="../">
+                    <img src="favicon.webp" alt="Logo">
+                </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+            <span></span>
+            <span></span>
+            </span>
+        </div>
+        <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item is-active" href="#">
+                        Home
+                </a>
+                <a class="navbar-item" href="#bowls">
+                        Bowls
+                </a>
+                <a class="navbar-item" href="#special-bowls">
+                        Special Bowls
+                </a>
+                <a class="navbar-item" href="#burrito">
+                        Burrito
+                </a>
+                <a class="navbar-item" href="#order">
+                        Order
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
   <section class="section">
     <div class="container">
       <div id="flow">
@@ -58,6 +89,7 @@
     </div>
   </section>
 
+  <a id="bowls"></a>
   <!-- Bowl -->
   <section class="section">
     <div class="container">
@@ -170,6 +202,8 @@
   </section>
   <!-- End Bowl -->
 
+
+  <a id="special-bowls"></a>
   <!-- Bowl -->
   <section class="section">
     <div class="container">
@@ -212,6 +246,8 @@
   </section>
   <!-- End Bowl -->
 
+
+  <a id="burrito"></a>
   <!-- Burrito and Drinks -->
   <section class="section">
       <div class="container">
@@ -353,7 +389,9 @@
       </div>
     </section>
     <!-- End Burrito and Drinks -->
-    <div id='order-widget'></div>
-  <script src="../js/bulma.js"></script>
+
+  <a id="order"></a>
+  <div id='order-widget'></div>
+  <script src="script.js"></script>
 </body>
 </html>
