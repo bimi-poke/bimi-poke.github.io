@@ -65,6 +65,9 @@
                 <a class="navbar-item" href="#order">
                         Order
                 </a>
+                <a class="navbar-item modal-button" data-target="modal-card">
+                        Catering
+                </a>
                 <a class="navbar-item" href="#about">
                         About
                 </a>
@@ -449,6 +452,62 @@
   <div>
     <h3 class="has-text-centered has-text-white-bis">© 2019 - Bimi Poke</h3>
   </div>
+
+  <!-- Modal -->
+  <div id="modal-card" class="modal modal-fx-3dSlit">
+      <div class="modal-background"></div>
+      <div class="modal-content is-tiny">
+        <!-- content -->
+        <div class="card">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Private Events & Catering</p>
+              </div>
+            </div>
+            <hr />
+            <div class="content">
+                <form action="https://formspree.io/g.george.jone@gmail.com" method="POST">
+                  <div class="columns">
+                    <div class="column is-one-half">
+                      <h1>Name</h1>
+                      <input type="text" name="name">
+                    </div>
+                    <div class="column is-one-half">
+                        <h1>Email</h1>
+                      <input type="email" name="_replyto">
+                    </div>
+                  </div>
+                  <div class="columns">
+                    <div class="column is-one-half">
+                      <h1>Phone Number</h1>
+                      <input type="text" name="phone">
+                    </div>
+                    <div class="column is-one-half">
+                        <h1># of People</h1>
+                      <input type="number" value="0" name="number-of-people">
+                    </div>
+                  </div>
+                  <div>
+                      <h1>Additional Info</h1>
+                    <textarea type="text" name="additional-info"></textarea>
+                  </div>
+                  <hr />
+                  <div class="is-right">
+                    <input type="submit" value="Send">
+                  </div>
+                </form>
+            </div>
+          </div>
+        </div>
+        <!-- end content -->
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+  <!-- End Modal -->
+
+    <script src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
