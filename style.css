@@ -273,3 +273,7 @@ textarea
     margin:5px 0;
     padding:1%;
 }
+
+#catering-button-container {
+  display: flex; justify-content: center;
+}
