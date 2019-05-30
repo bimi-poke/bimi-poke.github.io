@@ -281,4 +281,7 @@ textarea
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
